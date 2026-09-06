@@ -42,7 +42,7 @@ export default function StudentDashboard() {
         <div className="space-y-2 max-w-xl z-10">
           <div className="inline-flex items-center gap-2 bg-indigo-950 border border-indigo-800 px-3 py-1 rounded-full text-xs font-bold text-indigo-300">
             <Sparkles className="w-3.5 h-3.5 text-indigo-400 animate-pulse" />
-            <span>SIH 2026 Student Portal</span>
+            <span>SkillBridge Student Portal</span>
           </div>
           <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
             Welcome back, {student.name}! 👋

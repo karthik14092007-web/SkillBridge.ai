@@ -31,14 +31,14 @@ export default function LandingPage() {
             </div>
             <div>
               <span className="text-xl font-bold text-white tracking-tight">SkillBridge<span className="text-indigo-400">.ai</span></span>
-              <span className="block text-[10px] uppercase font-extrabold text-slate-400 tracking-wider">SIH 2026 Platform</span>
+              <span className="block text-[10px] uppercase font-extrabold text-slate-400 tracking-wider">Academia–Industry Platform</span>
             </div>
           </div>
 
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
             <a href="#features" className="hover:text-indigo-400 transition">Features</a>
-            <a href="#architecture" className="hover:text-indigo-400 transition">AI Engine</a>
-            <a href="#stats" className="hover:text-indigo-400 transition">SIH Impact</a>
+            <a href="#features" className="hover:text-indigo-400 transition">AI Engine</a>
+            <a href="#features" className="hover:text-indigo-400 transition">Platform Impact</a>
           </div>
 
           <div className="flex items-center gap-4">
@@ -63,10 +63,10 @@ export default function LandingPage() {
       {/* Hero Section */}
       <section className="relative pt-16 pb-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center space-y-8">
         
-        {/* SIH Pill */}
+        {/* Platform Pill */}
         <div className="inline-flex items-center gap-2 bg-indigo-950/80 border border-indigo-700/60 px-4 py-1.5 rounded-full text-xs font-bold text-indigo-300 shadow-inner">
           <Sparkles className="w-4 h-4 text-indigo-400 animate-pulse" />
-          <span>Smart India Hackathon 2026 Solution</span>
+          <span>Academia–Industry Collaboration Platform</span>
         </div>
 
         <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white max-w-5xl mx-auto leading-tight">
@@ -187,7 +187,7 @@ export default function LandingPage() {
           <div className="flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-indigo-400" />
             <span className="font-bold text-slate-300">SkillBridge.ai</span>
-            <span>— Smart India Hackathon 2026 Platform</span>
+            <span>— Academia–Industry Collaboration Platform</span>
           </div>
           <div>
             <span>Built with Next.js 14, TypeScript & Tailwind CSS</span>

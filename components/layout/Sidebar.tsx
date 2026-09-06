@@ -43,7 +43,7 @@ export const Sidebar: React.FC = () => {
             </div>
             <div>
               <span className="text-lg font-bold text-white tracking-tight">SkillBridge<span className="text-indigo-400">.ai</span></span>
-              <span className="block text-[10px] uppercase font-bold text-slate-500 tracking-wider">SIH 2026 Edition</span>
+              <span className="block text-[10px] uppercase font-bold text-slate-500 tracking-wider">SkillBridge Platform</span>
             </div>
           </Link>
         </div>
@@ -97,7 +97,7 @@ export const Sidebar: React.FC = () => {
         <div className="bg-slate-900/90 rounded-xl p-3.5 border border-slate-800 text-xs">
           <div className="flex items-center gap-2 font-semibold text-indigo-400 mb-1">
             <Sparkles className="w-3.5 h-3.5" />
-            <span>SIH 2026 AI Engine</span>
+            <span>SkillBridge AI Engine</span>
           </div>
           <p className="text-slate-400 text-[11px] leading-relaxed">
             Real-time skill matching algorithms powered by weighted vector scoring.
